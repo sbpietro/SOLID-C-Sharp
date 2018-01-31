@@ -42,11 +42,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cap1\CalculadoraDeSalario.cs" />
+    <Compile Include="Cap1\Cargo.cs" />
+    <Compile Include="Cap1\Dba.cs" />
+    <Compile Include="Cap1\Desenvolvedor.cs" />
+    <Compile Include="Cap1\DezOuVintePorcento.cs" />
+    <Compile Include="Cap1\Funcionario.cs" />
+    <Compile Include="Cap1\IRegra.cs" />
+    <Compile Include="Cap1\QuinzeOuVinteCincoPorcento.cs" />
+    <Compile Include="Cap1\Tester.cs" />
+    <Compile Include="Cap2\EnviadorDeEmail.cs" />
+    <Compile Include="Cap2\Fatura.cs" />
+    <Compile Include="Cap2\GeradorDeNotaFiscal.cs" />
+    <Compile Include="Cap2\IAcao.cs" />
+    <Compile Include="Cap2\NotaFiscal.cs" />
+    <Compile Include="Cap2\NotaFiscalDAO.cs" />
+    <Compile Include="Cap2\SAP.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
